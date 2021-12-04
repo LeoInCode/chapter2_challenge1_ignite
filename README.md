@@ -89,7 +89,7 @@ Lembre que a propriedade `admin` deve sempre ser iniciada como `false` e o `id` 
 
 - **Should be able to turn an user as admin**
 
-    Para que esse teste passe, é necessário que o método `turnAdmin` do arquivo **src/modules/users/repositories/implementations/UsersRepository** receba o objeto do usuário completo, mude a propriedade `admin` para `true`, atualize também a propriedade `updated_at`  e retorne o usuário atualizado.
+    Para que esse teste passe, é necessário que o método `turnAdmin` do arquivo **src/modules/users/repositories/implementations/UsersRepository** receba o objeto do usuário completo, mude a propriedade `admin` para `true`, atualize também a propriedade `updated_at` e retorne o usuário atualizado.
 
 ### Testes de useCases
 
